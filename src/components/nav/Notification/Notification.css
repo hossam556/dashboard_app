@@ -1,0 +1,40 @@
+.cont_now{
+  border: 1px solid #EC4165;
+  border-radius: 4px;
+  padding-left: 60px;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ margin-bottom: 5px;
+}
+.cont_5min{
+    padding-left: 60px;
+
+}
+.not_now{
+    width: 20%;
+    font-size: 12px;
+}
+.not_5min{
+    width: 20%;
+    font-size: 12px;
+
+}
+.not_title{
+  padding-left: 20px;
+}
+.not_icon{
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+.notif{
+    background-color:#1EC1C3 ;
+    opacity: 0.2;
+    border-radius: 50%;
+    border: 1px solid #1EC1C3;
+    padding: 16px 16px;
+    position: absolute;
+    top: 21px;
+    right: 82.2%;
+}

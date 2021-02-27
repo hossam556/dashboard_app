@@ -1,0 +1,14 @@
+.filter_button{
+    text-decoration: none;
+    color: white;
+    background-color: #323662;
+    border-radius: 4px;
+    padding : 7px 9px ;
+}
+.M{
+    background-color: #01A9F4;
+}
+.filter_date{
+    display: flex;
+    justify-content: space-between;
+}

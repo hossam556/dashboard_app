@@ -1,0 +1,12 @@
+.layout{
+    display: grid;
+    grid-template-rows: 60px auto;
+}
+.main{
+    display: flex;
+    padding :50px;
+}
+.desk_buttons{
+    display: flex;
+    flex-direction: column;
+}

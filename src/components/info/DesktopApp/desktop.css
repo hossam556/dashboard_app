@@ -1,0 +1,35 @@
+
+.desk_button1{
+    text-decoration: none;
+    color: white;
+    background-color: #1EC1C3;
+    border-radius: 4px;
+    padding : 7px 43px ;
+    height: 50%;
+}
+.desk_button1:hover{
+    background-color: white;
+    color:  #1EC1C3;
+}
+.desk_button2:hover{
+    background-color: white;
+    color:  #1EC1C3;
+}
+.desk_button2{
+    text-decoration: none;
+    color: white;
+    background-color: #1EC1C3;
+    border-radius: 4px;
+    padding : 7px 36px ;
+    height: 50%;
+
+}
+.lap{
+    border: 1px solid rgba(245, 242, 242 ,0.1);
+    padding :12px;
+    border-radius: 5px;
+    margin-right: 8px ;
+}
+.lap:hover{
+    color: #EC4165;
+}

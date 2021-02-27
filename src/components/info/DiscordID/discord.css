@@ -1,0 +1,12 @@
+.dis_button{
+    text-decoration: none;
+    color: #EC4165;
+    background-color: #323662;
+    border-radius: 4px;
+    padding : 12px 35px ;
+}
+.dis_button:hover{
+    
+        background-color: hsl(347, 82%, 59%);
+        color: #323662;
+}

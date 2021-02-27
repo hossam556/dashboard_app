@@ -1,0 +1,31 @@
+.n72{
+    font-size: 25px;
+    color: #63F4F7;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.shopping_cont{
+    height: 100%;
+    position: relative;
+}
+.shopping{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+   
+}
+.shopping_a{
+    background-color:#63F4F7 ;
+    opacity: 0.2;
+    padding : 19px 27px;
+    border-radius: 50%;
+    position: absolute;
+    right: 9px;
+    top: 18px;
+}
+.true_mark{
+    position: absolute;
+    right: 29px;
+    top: 29px;
+}

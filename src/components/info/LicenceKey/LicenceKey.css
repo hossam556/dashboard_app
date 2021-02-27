@@ -1,0 +1,39 @@
+.lic_buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.lic_button1{
+text-decoration: none;
+background-color: #01A9F4;
+color: white;
+padding : 12px 16px ;
+border-radius: 4px;
+}
+.lic_button1:hover{
+    background-color: white;
+    color: #01A9F4;
+}
+.lic_button2{
+    text-decoration: none;
+    color: hsl(347, 82%, 59%);
+    background-color: #323662;
+    border-radius: 4px;
+    padding : 12px 30px ;
+    
+}
+.lic_button2:hover{
+    background-color: hsl(347, 82%, 59%);
+    color: #323662;
+
+}
+.eye_cont{
+    background-color:#1EC1C3 ;
+    opacity: 0.2;
+    border-radius: 50%;
+    border: 1px solid #1EC1C3;
+    padding: 16px 16px;
+    position: absolute;
+    top: 72px;
+    right: 14px;
+}

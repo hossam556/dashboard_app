@@ -1,0 +1,36 @@
+.product{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255 ,0.3);
+    color: white;
+    padding-left: 5px;
+}
+.p_title{
+    color: white;
+}
+.product_button{
+    background-color:#63F4F7 ;
+    opacity: 0.2;
+    padding : 10px 29px;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+}
+.butt{
+    font-size: 10px;
+    align-self: center;
+    position: relative;
+    color: #63F4F7;
+}
+.Fail{
+    color: #FE7448;
+
+}
+.fail{
+    background-color:#FE7448;
+    padding : 10px 20px;
+    transform: translate(-130%, -50%);
+
+}

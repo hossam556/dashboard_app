@@ -1,0 +1,20 @@
+.trans{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.t_head{
+    padding-left: 5px;
+}
+.tran_button{
+    text-decoration: none;
+    color: #1EC1C3;
+    background-color: #323662;
+    border-radius: 4px;
+    padding : 12px 26px ;
+}
+.tran_button:hover{
+    background-color:#1EC1C3 ;
+    color: #323662;
+
+}

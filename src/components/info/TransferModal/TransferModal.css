@@ -1,0 +1,26 @@
+.Tmodal_buttons{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #252A4B;
+    padding: 7px;
+}
+.Tmodal_button{
+    text-decoration: none;
+    color: white;
+    background-color: #323662;
+    border-radius: 4px;
+    padding : 12px 35px ;
+    margin-right: 7px;
+}
+.Tmodal_input{
+    background-color: #252A4B;
+    width: 94%;
+    padding: 10px ;
+}
+.Tmodal_p{
+    font-size: 12px;
+    display: inline-block;
+}
+.blue{
+    background-color: #1EC1C3;
+}

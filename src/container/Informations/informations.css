@@ -1,0 +1,12 @@
+.info{
+    flex: 1;
+    padding-left: 10px;
+    position: relative;
+}
+.hover{
+    transition: transform 0.3s;
+
+}
+.hover:hover{
+    transform: scale(1.02);
+}
