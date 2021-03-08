@@ -1,9 +1,13 @@
-import React from 'react'
+import React ,{useEffect} from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import './desktop.css'
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
+
 
 const useStyles = makeStyles({
     root: {
@@ -22,9 +26,15 @@ const useStyles = makeStyles({
 
 const DesktopApp = () => {
     const classes = useStyles();
+    useEffect(() => {
+      AOS.init({
+        duration : 500
+      });
+    }, []);
 
     return (
-        <Card className={classes.root} variant="outlined">
+      <div data-aos="flip-right">
+        <Card className={classes.root} variant="outlined" data-aos="flip-right">
         <CardContent className={classes.action}>
             <div className='lap'>
               <LaptopMacIcon style={{fontSize:'80px'}}/>
@@ -37,6 +47,7 @@ const DesktopApp = () => {
 
         </CardContent>
      </Card>
+     </div>
     )
 }
 
